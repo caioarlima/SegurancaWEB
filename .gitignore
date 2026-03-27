@@ -1,0 +1,10 @@
+# Bloqueia o arquivo com a senha real
+conn.php
+
+# Bloqueia pastas de configuração do editor e do sistema
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Se você usar o Laradock e tiver um arquivo .env
+.env

@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+}
+
+.container {
+    width: 100%; 
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse; /* Une as bordas das células */
+    background-color: #ffffff;
+}
+
+/* CABEÇALHO - Fica preso no topo com o estilo escuro */
+.cabecalho {
+    background: linear-gradient(90deg, #000033 0%, #00d4ff 100%);
+}
+
+.cabecalho .item {
+    padding: 20px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none; /* Garante que não herde bordas estranhas */
+}
+
+
+.corpo td {
+    padding: 18px 20px;
+    border-bottom: 1px solid #e2e8f0; /* Linha sutil separando os carros */
+    color: #334155;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: #ffffff; /* Garante fundo branco para os dados */
+}
+
+/* Efeito ao passar o mouse na linha do carro */
+.corpo tr:hover td {
+    background-color: #f8fafc;
+    cursor: default;
+}
+
+/* Estilo específico para a coluna ID para dar um destaque */
+.corpo td:first-child {
+    font-weight: bold;
+    color: #000033;
+}
