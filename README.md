@@ -33,4 +33,4 @@ Para que o projeto funcione corretamente no seu ambiente, siga estes passos:
     * Na raiz deste projeto, copie o arquivo `conn.example.php` e renomeie a cópia para **`conn.php`**.
     * Preencha as variáveis do `conn.php` com os dados exatos que você encontrou no `.env` do seu Laradock.
 5.  **Validação de Portas:** Rode `docker ps` no terminal para garantir que os containers estão "Up" e confirmar se a porta do MySQL bate com a configuração.
-6.  **Acesso:** Acesse o projeto via navegador no domínio configurado no seu Laradock (ex: `localhost` ou `seguranca.test`).
+6.  **Acesso:** Acesse o projeto via navegador no domínio configurado no seu Laradock (ex: `localhost` ou `dominio que você deu`).
