@@ -4,7 +4,7 @@ Este é um projeto desenvolvido para **aprendizado pessoal** focado em **Seguran
 
 ## 🚀 Tecnologias e Ambiente
 Para este laboratório, utilizei uma stack moderna e isolada em containers:
-* **PHP 8.x** (Lógica de servidor e conexão segura via PDO)
+* **PHP 8.4.17** (Lógica de servidor e conexão segura via PDO)
 * **HTML5 & CSS3** (Interface e estruturação do laboratório)
 * **Docker & Laradock** (Ambiente de desenvolvimento conteinerizado)
 * **MySQL** (Banco de dados relacional para testes de persistência)
