@@ -6,7 +6,7 @@
  */
 
 $host     = 'NOME_DO_SERVICO_MYSQL'; 
-$port     = '3306'; //troque se for necessario
+$port     = 'SUA_PORTA';
 $database = 'NOME_DO_SEU_BANCO';
 $user     = 'SEU_USUARIO';
 $password = 'SUA_SENHA';
